@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    background-color:#B20600;
+}
+
+.main {
+    background-color:#EEEEEE;
+    font-family: 'Inter', sans-serif;
+    border-radius:10px;
+    width:400px;
+    max-width:100%;
+    padding: 30px 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+    text-align: center;
+    margin: 10px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size:40px;
+}
+
+.container {
+    margin: 40px 0;
+}
+
+form {
+    text-align: center;
+}
+
+.input-field {
+    text-align: start;
+    padding-bottom: 18px;
+}
+
+.input-field label {
+    font-size:18px;
+    margin-bottom:10px;
+    display: inline-block;
+}
+
+.input-field input{
+    width:100%;
+    padding: 8px;
+    font-family: inherit;
+    font-size: 16px;
+    border-radius:8px;
+    border: 2px solid #EEEEEE;
+}
+
+form button {
+    font-family: inherit;
+    padding: 10px 30px;
+    background-color: #00092C;
+    color: #EEEEEE;
+    border: 2px solid #EEEEEE;
+    border-radius: 10px;
+    margin:20px 0;
+}
+
+form p {
+    font-size:12px;
+}
+
+form a{
+    color: #B20600;
+    text-decoration: none;
+}

@@ -1,0 +1,81 @@
+/* primary: #B20600
+secondary: #00092C
+background: #EEEEEE */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    background-color:#B20600;
+}
+
+.main {
+    background-color:#EEEEEE;
+    font-family: 'Inter', sans-serif;
+    border-radius:10px;
+    width:950px;
+    max-width:100%;
+    padding: 30px 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+    text-align: center;
+    margin: 10px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size:40px;
+}
+
+.container {
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .box{
+    text-align: center;
+}
+
+.container .box.right,
+.container .box.left {
+    width:50%;
+}
+
+.box h3 {
+    font-size: 21px;
+    margin: 0;
+    padding: 15px 0;
+    text-transform: uppercase;
+}
+
+.box p{
+    font-size:18px;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.box button {
+    font-family: inherit;
+    padding: 12px 24px;
+    margin-top: 25px;
+    background-color: #00092C;
+    border: 2px solid #EEEEEE;
+    border-radius: 10px;
+}
+
+.box button a{
+    color: #EEEEEE;
+    text-decoration: none;
+}

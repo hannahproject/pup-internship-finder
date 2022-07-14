@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/home.css">
+    </head>
+    <body>
+
+        <div class="header">
+            <h4>PUP Internship Finder</h4>
+            <nav>
+                <ul>
+                    <li><a href="#">Post a Job</a></li> 
+                    <li><a href="applicant.html">Applicants</a></li>
+                    <li><a href="history.html">Job Posting History</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container">
+            <div class="content">
+                <h3>Post a Job Opening</h3>
+
+                <form action="">
+
+                    <div class="input-field">
+                        <label for="job-title">Job Title</label>
+                        <input type="text" id="job-title" placeholder="Job Title" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label for="job-function">Job Function</label>
+                        <input type="text" id="job-function" placeholder="Job Function" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label for="job-type">Job Title</label>
+                        <select name="job-type" id="job-type">
+                            <option value="accounting">Accounting and Finance</option>
+                            <option value="sales">Sales and Marketing</option>
+                            <option value="it">IT and Software</option>
+                            <option value="accounting">Accounting and Finance</option>
+                            <option value="accounting">Accounting and Finance</option>
+                        </select>
+                    </div>
+
+                    <div class="input-field">
+                        <label for="job-type">Job Type</label>
+                        <select name="job-type" id="job-type">
+                            <option value="wfh">Work from Home</option>
+                            <option value="on-site">On-site</option>
+                            <option value="flexible">Flexible</option>
+                        </select>
+                    </div>
+
+                    <div class="input-field">
+                        <label for="vacancy">No. of Vacancy</label>
+                        <input type="number" id="vacancy" placeholder="No. of Vacancy" min="1" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label for="location">Office Location</label>
+                        <input type="text" id="location" placeholder="Office Location" min="1" required>
+                    </div>
+
+                    <div class="input-field txt-area">
+                        <label for="description">Job Description/Requirements</label>
+                        <textarea name="description" id="description">
+                        </textarea>
+                    </div>
+                </form>
+                <button>Post</button>               
+            </div>
+        </div>
+    </body>
+</html>

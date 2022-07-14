@@ -1,0 +1,58 @@
+.container {
+    margin: 10px auto;
+    width: 600px;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: #B20600;
+}
+
+form {
+    text-align: start;
+}
+
+.input-field {
+    display: block;
+    padding: 15px 0;
+}
+
+.input-field label {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 8px;
+    font-family: inherit;
+    font-size: 16px;
+    border-radius:8px;
+    border: 2px solid #EEEEEE;
+}
+
+.input-field select {
+    width: 100%;
+    padding: 8px;
+    font-family: inherit;
+    font-size: 16px;
+    border-radius:8px;
+    border: 2px solid #EEEEEE;
+}
+
+.input-field textarea {
+    width: 100%;
+}
+
+button {
+    margin: 15px 0;
+    font-family: inherit;
+    padding: 10px 30px;
+    background-color: #00092C;
+    color: #EEEEEE;
+    border: 2px solid #EEEEEE;
+    border-radius: 10px;
+}

@@ -1,0 +1,44 @@
+.container {
+    width: 90%;
+    margin: 20px auto;
+}
+
+h3 {
+    color: #B20600;
+}
+
+.job-post {
+    padding: 10px 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+.job-post p{
+    margin: 0;
+    padding: 5px;
+}
+
+.job-post .job-title{
+    font-size:18px;
+    color: #B20600;
+    font-weight: 600;
+}
+
+.job-post .job-info {
+    font-size: 13px;
+}
+
+.job-post button {
+    font-family: inherit;
+    padding: 12px 24px;
+    background-color: #00092C;
+    border: transparent;
+    border-radius: 10px;
+    color: #EEEEEE;
+    cursor: pointer;
+}
