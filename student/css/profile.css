@@ -1,0 +1,60 @@
+.container {
+    width:900px;
+    display: flex;
+    margin: 50px auto;
+}
+
+#profile-photo-placement {
+    border-radius: 50%;
+    border: 1px solid grey;
+    width:130px;
+    height:130px;
+    background-color: grey;
+    overflow: hidden;
+}
+
+.box.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:20%;
+    padding:20px 20px 0 20px;
+}
+
+.box.left button {
+    font-family: inherit;
+    padding: 12px 24px;
+    margin-top: 20px;
+    background-color: #00092C;
+    border: transparent;
+    border-radius: 10px;
+}
+
+.box.left button label {
+    color:#EEEEEE;
+}
+
+#profile-photo {
+    display: none;
+}
+
+.box.right {
+    padding: 20px 20px 0 20px;
+    width:80%;
+}
+
+h3{
+    color: #B20600;
+}
+
+.detail {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.detail small {
+    color: #B20600;
+    cursor: pointer;
+}

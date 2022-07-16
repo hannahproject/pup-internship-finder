@@ -1,0 +1,45 @@
+/* primary: #B20600
+secondary: #00092C
+background: #EEEEEE */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #EEEEEE;
+    margin:0;
+}
+
+.header {
+    width:100%;
+    height:90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #B20600;
+    padding: 0 40px;
+}
+
+.header h4 {
+    color: #EEEEEE;
+    font-size:20px;
+}
+
+.header nav {
+    width: 50%;
+}
+
+.header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.header ul a {
+    color: #EEEEEE;
+    text-decoration: none;
+}
