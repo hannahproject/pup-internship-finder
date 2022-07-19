@@ -3,7 +3,6 @@ var password = document.getElementById ('password');
 var confirmPass = document.getElementById ('confirm-password');
 var submit = document.getElementById ('submit').addEventListener('click', passwordVerification);
 
-
 //SIGNUP VERIFICATION
 function passwordVerification () {
 
